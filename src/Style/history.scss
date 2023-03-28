@@ -1,0 +1,145 @@
+.historyLine1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: #c5e2e9;
+  color: #041320;
+  border: 2px solid #043630;
+  box-shadow: 24px;
+  font-size: 20px;
+  min-height: 50vh;
+  padding: 0px 5px;
+  .title {
+    text-align: center;
+    border-bottom: 1px solid #043630;
+    font-weight: bold;
+    padding: 7px 23px 18px 20px;
+    font-size: 20px;
+  }
+  .header {
+    display: flex;
+    text-align: center;
+    .header-content {
+      padding: 10px 0px;
+      font-size: 130%;
+      border-bottom: 1px solid #043630;
+    }
+    .h-id {
+      text-align: center;
+      width: 10%;
+      border-right: 1px solid #043630;
+    }
+
+    .h-time {
+      text-align: center;
+      width: 45%;
+      border-right: 1px solid #043630;
+    }
+
+    .h-temp {
+      text-align: center;
+      width: 45%;
+      border-right: 1px solid #043630;
+    }
+
+    .h-humi {
+      text-align: center;
+      width: 45%;
+    }
+  }
+  .body {
+    display: flex;
+    text-align: center;
+    .id-content {
+      text-align: center;
+      width: 10%;
+      border-right: 1px solid #043630;
+    }
+
+    .time-content {
+      text-align: center;
+      width: 45%;
+      border-right: 1px solid #043630;
+    }
+
+    .temp-content {
+      text-align: center;
+      width: 45%;
+      border-right: 1px solid #043630;
+    }
+
+    .humi-content {
+      text-align: center;
+      width: 45%;
+    }
+  }
+}
+.historyLine2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  background-color: #039995;
+  color: #002f2e;
+  border: 2px solid #043630;
+  box-shadow: 24px;
+  font-size: 20px;
+  min-height: 50vh;
+  padding: 0px 5px;
+  .title {
+    text-align: center;
+    border-bottom: 1px solid #043630;
+    font-weight: bold;
+    padding: 7px 23px 18px 20px;
+    font-size: 20px;
+  }
+  .header {
+    display: flex;
+    text-align: center;
+    .header-content {
+      padding: 10px 0px;
+      font-size: 130%;
+      border-bottom: 1px solid #043630;
+    }
+    .h-id {
+      text-align: center;
+      width: 10%;
+      border-right: 1px solid #043630;
+    }
+    .h-time {
+      text-align: center;
+      width: 45%;
+      border-right: 1px solid #043630;
+    }
+
+    .h-light-gas {
+      text-align: center;
+      width: 45%;
+    }
+  }
+  .body {
+    display: flex;
+    text-align: center;
+    .id-content {
+      text-align: center;
+      width: 10%;
+      border-right: 1px solid #043630;
+    }
+
+    .time-content {
+      text-align: center;
+      width: 45%;
+      border-right: 1px solid #043630;
+    }
+
+    .light-gas-content {
+      text-align: center;
+      width: 45%;
+    }
+  }
+}

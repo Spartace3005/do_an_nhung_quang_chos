@@ -1,0 +1,127 @@
+.App {
+  padding: 40px;
+  margin: 0px;
+  font-size: 30px;
+  min-height: 87.8vh;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+  background-color: #496e6e;
+  .header {
+    .title {
+      color: whitesmoke;
+    }
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 0px 10px;
+    height: 5px;
+    .icon{
+        color: #edc57e;
+    }
+  }
+  .line-1 {
+    display: flex;
+    margin-top: 70px;
+    justify-content:space-around;
+    .dht11 {
+      background-color: hsl(228, 18%, 32%);
+      color: #edc57e;
+      box-shadow: 24px;
+      font-size: 20px;
+      border: 2px solid silver;
+      height: 50%;
+      width: 300px;
+      border-radius: 10px;
+      .sensor-title-1 {
+        border-bottom: 1px solid silver;
+        padding: 7px 23px 18px 20px;
+      }
+      .sensor-value {
+        display: flex;
+        flex-direction: column;
+        .temp-humi-title {
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          border-bottom: 1px solid silver;
+          .temp-title,
+          .humi-title {
+            width: 50%;
+            padding-top: 10px;
+          }
+        }
+        .temp-humi-value {
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          .temp-value,
+          .humi-value {
+            width: 50%;
+            padding-top: 10px;
+          }
+        }
+        .border-right {
+          border-right: 1px solid silver;
+        }
+      }
+    }
+  }
+  .line-2 {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    .border-right{
+        border-right:1px solid silver;
+    }
+    .light-sensor {
+      background-color: hsl(228, 18%, 32%);
+      color: #edc57e;
+      box-shadow: 24px;
+      font-size: 20px;
+      border: 2px solid silver;
+      height: 50%;
+      width: 15%;
+      border-radius: 10px;
+      .sensor-title-2 {
+        border-bottom: 1px solid silver;
+        padding: 7px 23px 18px 20px;
+      }
+      .light {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        .light-title,
+        .light-value{
+            width: 50%;
+            padding-top: 10px;
+        }
+      }
+    }
+    .gas-sensor {
+      background-color: hsl(228, 18%, 32%);
+      color: #edc57e;
+      box-shadow: 24px;
+      font-size: 20px;
+      border: 2px solid silver;
+      height: 50%;
+      width: 15%;
+      border-radius: 10px;
+      .sensor-title-3 {
+        border-bottom: 1px solid silver;
+        padding: 7px 23px 18px 20px;
+      }
+      .gas {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        .gas-title,
+        .gas-value{
+            width: 50%;
+            padding-top: 10px;
+        }
+      }
+    }
+  }
+}
